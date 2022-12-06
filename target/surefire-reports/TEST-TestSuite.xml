@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.162" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/jay/intellij-workspace/cucumber-test-project/target/test-classes:/Users/jay/intellij-workspace/cucumber-test-project/target/classes:/Users/jay/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/jay/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/jay/.m2/repository/io/cucumber/cucumber-java/7.9.0/cucumber-java-7.9.0.jar:/Users/jay/.m2/repository/io/cucumber/cucumber-core/7.9.0/cucumber-core-7.9.0.jar:/Users/jay/.m2/repository/io/cucumber/cucumber-gherkin/7.9.0/cucumber-gherkin-7.9.0.jar:/Users/jay/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.9.0/cucumber-gherkin-messages-7.9.0.jar:/Users/jay/.m2/repository/io/cucumber/gherkin/24.1.0/gherkin-24.1.0.jar:/Users/jay/.m2/repository/io/cucumber/messages/19.1.4/messages-19.1.4.jar:/Users/jay/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/jay/.m2/repository/io/cucumber/cucumber-expressions/16.0.0/cucumber-expressions-16.0.0.jar:/Users/jay/.m2/repository/io/cucumber/datatable/7.9.0/datatable-7.9.0.jar:/Users/jay/.m2/repository/io/cucumber/cucumber-plugin/7.9.0/cucumber-plugin-7.9.0.jar:/Users/jay/.m2/repository/io/cucumber/docstring/7.9.0/docstring-7.9.0.jar:/Users/jay/.m2/repository/io/cucumber/html-formatter/20.1.0/html-formatter-20.1.0.jar:/Users/jay/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/Users/jay/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/jay/.m2/repository/io/cucumber/cucumber-junit/7.9.0/cucumber-junit-7.9.0.jar:/Users/jay/.m2/repository/io/cucumber/cucumber-testng/7.8.1/cucumber-testng-7.8.1.jar:/Users/jay/.m2/repository/org/testng/testng/7.6.1/testng-7.6.1.jar:/Users/jay/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/jay/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/jay/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/jay/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="UA"/>
+    <property name="sun.boot.library.path" value="/Users/jay/Library/Java/JavaVirtualMachines/openjdk-18.0.2/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/jay/intellij-workspace/cucumber-test-project/target/surefire/surefirebooter5641277878251544169.jar /Users/jay/intellij-workspace/cucumber-test-project/target/surefire 2022-12-06T17-58-41_730-jvmRun1 surefire18260667728388832192tmp surefire_06415044589600659503tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/jay/intellij-workspace/cucumber-test-project/target/test-classes:/Users/jay/intellij-workspace/cucumber-test-project/target/classes:/Users/jay/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/jay/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/jay/.m2/repository/io/cucumber/cucumber-java/7.9.0/cucumber-java-7.9.0.jar:/Users/jay/.m2/repository/io/cucumber/cucumber-core/7.9.0/cucumber-core-7.9.0.jar:/Users/jay/.m2/repository/io/cucumber/cucumber-gherkin/7.9.0/cucumber-gherkin-7.9.0.jar:/Users/jay/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.9.0/cucumber-gherkin-messages-7.9.0.jar:/Users/jay/.m2/repository/io/cucumber/gherkin/24.1.0/gherkin-24.1.0.jar:/Users/jay/.m2/repository/io/cucumber/messages/19.1.4/messages-19.1.4.jar:/Users/jay/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/jay/.m2/repository/io/cucumber/cucumber-expressions/16.0.0/cucumber-expressions-16.0.0.jar:/Users/jay/.m2/repository/io/cucumber/datatable/7.9.0/datatable-7.9.0.jar:/Users/jay/.m2/repository/io/cucumber/cucumber-plugin/7.9.0/cucumber-plugin-7.9.0.jar:/Users/jay/.m2/repository/io/cucumber/docstring/7.9.0/docstring-7.9.0.jar:/Users/jay/.m2/repository/io/cucumber/html-formatter/20.1.0/html-formatter-20.1.0.jar:/Users/jay/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/Users/jay/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/jay/.m2/repository/io/cucumber/cucumber-junit/7.9.0/cucumber-junit-7.9.0.jar:/Users/jay/.m2/repository/io/cucumber/cucumber-testng/7.8.1/cucumber-testng-7.8.1.jar:/Users/jay/.m2/repository/org/testng/testng/7.6.1/testng-7.6.1.jar:/Users/jay/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/jay/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/jay/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/jay/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/jay"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="/Users/jay/Library/Java/JavaVirtualMachines/openjdk-18.0.2/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/jay/intellij-workspace/cucumber-test-project"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/jay/intellij-workspace/cucumber-test-project/target/surefire/surefirebooter5641277878251544169.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="18.0.2+9-61"/>
+    <property name="user.name" value="jay"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.0.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/jay/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/0g/t9kk30b531jbz78hwbrd2fvc0000gn/T/"/>
+    <property name="idea.version" value="2022.1.2"/>
+    <property name="java.version" value="18.0.2"/>
+    <property name="user.dir" value="/Users/jay/intellij-workspace/cucumber-test-project"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/jay/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.2+9-61"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue on shouldAnswerWithTrue(AppTest)" classname="AppTest" time="0.001"/>
+</testsuite>
