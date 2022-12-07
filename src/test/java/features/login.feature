@@ -1,10 +1,18 @@
 Feature: Application Login
+
+  Background:
+    Given user opens browser
+    When browser version is being checked
+    Then check complete
+
+
   Scenario: Home page default login 1
     Given User is on banking landing page
     When User login to application with username "Max" and password "Max123"
     Then Homepage is populated
     And cards are displayed "yes"
 
+    @Mytag
   Scenario: Home page default login 2
     Given User is on banking landing page
     When User login to application with username "Jay" and password "Jay123"
@@ -17,7 +25,7 @@ Feature: Application Login
 #      | username_jenny | password_123 | email@gmail.com | tel_380632103372 | address_Ukraine |
 #    Then Homepage is populated
 #    And cards are displayed "no"
-
+   @Mytag2
   Scenario Outline: multiple values
     Given User is on banking landing page
     When Account login with <username> and password <password> and email <email>

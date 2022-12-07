@@ -60,4 +60,19 @@ public class stepDefinition {
         System.out.println("pass: " + pass);
         System.out.println("email: " + email);
     }
+
+    @Given("user opens browser")
+    public void userOpensBrowser() {
+        System.out.println("Browser opened");
+    }
+
+    @When("browser version is being checked")
+    public void browserVersionIsBeingChecked() {
+        System.out.println("Browser version is being checked");
+    }
+
+    @Then("check complete")
+    public void checkComplete() {
+        System.out.println("check complete !");
+    }
 }
